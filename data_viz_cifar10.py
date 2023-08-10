@@ -26,7 +26,7 @@ for i, ax in enumerate(axes.flat):
     ax.axis('off')
 
 # Generate a unique filename using timestamp
-timestamp = time.strftime("%Y%m%d_%H%M%S")
+timestamp = int(time.time())
 filename = f'cifar_random_images_{timestamp}.png'
 
 # Ensure "images" folder exists
