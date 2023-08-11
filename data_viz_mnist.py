@@ -12,7 +12,6 @@ transform = transforms.Compose([transforms.ToTensor()])
 
 # Load the MNIST dataset using torchvision
 dataset = torchvision.datasets.MNIST(root='./data', train=True, transform=transform, download=True)
-dataloader = torch.utils.data.DataLoader(dataset, batch_size=1, shuffle=True)
 
 # Select 9 random samples
 random_samples = np.random.choice(len(dataset), 9, replace=False)
