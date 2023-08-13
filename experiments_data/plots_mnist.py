@@ -34,6 +34,9 @@ for percentage in percentage_values:
     ax.set_ylabel('Test Accuracy')
     ax.set_title(f'Test Accuracy vs. Epoch (Percentage {percentage})')
 
+    # Set y-axis limits from 0 to 1
+    ax.set_ylim(0, 1.1)
+
     # Add a legend at the bottom right
     ax.legend(loc='lower right')
 
