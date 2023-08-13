@@ -6,17 +6,6 @@ Aims to visualize and compare test accuracy
 results when training the model using randomly selected
 sample as percentage of the initial dataset.
 
-## Table of Contents
-
-- [Test Accuracy Plots](#test-accuracy-plots)
-  - [Percentage 0.01](#mnist-1)
-  - [Percentage 0.05](#percentage-005)
-  - [Percentage 0.1](#percentage-01)
-  - ... (repeat for other percentage values)
-- [Author](#author)
-- [License](#license)
-
-
 ## Test Accuracy Plots
 
 Here, we present the test accuracy plots for the two datasets 
